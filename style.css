@@ -1,0 +1,115 @@
+
+    .rosado {
+        background-color: pink;
+        height: 2rem;
+        text-align: center;
+        margin: 1px;
+    }
+    .verde {
+        background-color: green;
+        height: 8rem;
+        text-align: center;
+        margin: 1px;
+    }
+    .azul {
+        background-color: blue;
+        height: 15rem;
+        text-align: center;
+        margin: 1px;
+    }
+    .rojo {
+        background-color: red;
+        width: 33%;
+        height: 10rem;
+        float: left;
+        text-align: center;
+        margin: 1px;
+    }
+    .morado {
+        background-color: blueviolet;
+        width: 33%;
+        height: 10rem;
+        float: left;
+        text-align: center;
+        margin: 1px;
+    }
+    .gris {
+        background-color: gray;
+        height: 10rem;
+        text-align: center;
+        margin: 1px;
+    }
+
+
+@media (min-width: 501px) and (max-width:751px) {
+    .rosado {
+        background-color: pink;
+        height: 10rem;
+        text-align: center;
+    }
+    .verde {
+        background-color: green;
+        width: 33%;
+        height: 10rem;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        float: left;
+    }
+    .azul {
+        background-color: blue;
+        width: calc(33%);
+        height: 10rem;
+        text-align: center;
+        float: left;
+    }
+    .rojo {
+        background-color: red;
+        width: 33%;
+        height: 10rem;
+        float: left;
+        text-align: center;
+        display: flex;
+        margin: 0;
+    }
+    .morado {
+        background-color: blueviolet;
+        width: 60%;
+        height: 20rem;
+        text-align: center;
+    }
+    .gris {
+        display: flex;
+        width: 39%;
+        background-color: gray;
+        height: 20rem;
+        text-align: center;
+        float: left;
+    }
+}
+
+@media (max-width: 500px) {
+    .rosado {
+        background-color: pink;
+        height: 10rem;
+        text-align: center;
+    }
+    .verde {
+        background-color: green;
+        height: 10rem;
+    }
+    .azul {
+        background-color: blue;
+        height: 5rem;
+        text-align: center;
+    }
+    .rojo {
+        display: none;
+    }
+    .morado {
+        display: none;
+    }
+    .gris {
+        height: 12rem;
+    }
+}
